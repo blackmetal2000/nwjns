@@ -17,7 +17,6 @@ namespace newjeans
             );
 
             Console.WriteLine(status);
-
         }
     }
 }
