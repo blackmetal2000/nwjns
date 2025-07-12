@@ -15,7 +15,7 @@ This POC demonstrates the new undocumented API `NtQueueApcThreadEx2`, used for A
 
 This is a new system call, that allows to pass both `UserApcFlags` and `MemoryReserveHandle`. Advantages:
 
-1. this API accepts 3 arguments!
+1. the APC ROUTINE accepts 3 arguments!
 2. the thread doesn't need to be in alertable state! (new)
 
 
